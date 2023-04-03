@@ -3,8 +3,8 @@
 echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf
 sysctl -p
 
-EXTERNAL_IP="84.201.154.102"
-INTERNAL_IP="192.168.10.35"
+EXTERNAL_IP=""
+INTERNAL_IP=""
 EXTERNAL_PORT=6443
 INTERNAL_PORT=6443
 
